@@ -1,213 +1,213 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <title>Resume-suscess</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Bebas+Neue&family=Kanit:ital,wght@1,200&family=Libre+Baskerville:ital@1&family=Oswald:wght@300&display=swap');
-        body{
-            font-family: 'Oswald', sans-serif;
-        }
-        .circular--landscape {
-            display: inline-block;
-            position: relative;
-            width:  300px;
-            height:  300px;
-            overflow: hidden;
-            border-radius: 50%;
-        }
-        .circular--landscape img {
-            width: auto; 
-            height: 100%;
-            margin-left: -50px;
-        }
-        .box {
-            width: 80%;
-            height: auto;
-            background-color: rgba(82, 16, 16, 0.816);
-            color: aliceblue;
-            font-size: 35px;
-            text-align: center;
-        }
-        .fontH {
-            font-size: 30px;
-            font-weight: bold;
-            margin-left: 10%;
-            margin-top: 3%;
-            color: black;
-        }
-        .font {
-            font-size: 25px;
-            margin-left: 10%;
-            margin-top: -2%;
-        }
-        .MainPage {
-            margin-top: 0%;
-            width: 100%;
-            height: auto;
-            background : url(img/wall.png)no-repeat ;
-            background-size: cover;
-            background-position: center;
-            margin-bottom: 0%;
-            position: relative;
-        }
-        /* เพิ่ม responsive CSS ที่นี่ */
-        @media (max-width: 768px ) {
-            .col-1 {
-                display: none; /* ซ่อนคอลัมน์แรกในมือถือ */
-            }
-            .col-4 {
-                width: 100%; /* ทำให้คอลัมน์ที่ 4 เต็มความกว้างในมือถือ */
-                text-align: center;
-                margin-top: 10px;
+    <!DOCTYPE html>
+    <html lang="en"><head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <title>Resume-suscess</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Bebas+Neue&family=Kanit:ital,wght@1,200&family=Libre+Baskerville:ital@1&family=Oswald:wght@300&display=swap');
+            body{
+                font-family: 'Oswald', sans-serif;
             }
             .circular--landscape {
-                width: 200px;
-                height: 200px;
+                display: inline-block;
+                position: relative;
+                width:  300px;
+                height:  300px;
+                overflow: hidden;
+                border-radius: 50%;
             }
-            .box {
-                width: 100%;
-                font-size: 20px;
-                text-align: center;
-            }
-            .fontH {
-                font-size: 20px;
-                text-align: left;
-            }
-            .col-7 {
-                display: none
-                ;
-            }
-        }
-
-        /* เพิ่ม responsive CSS สำหรับคอมพิวเตอร์ที่นี่ */
-        @media (min-width: 769px) {
-            .col-4 {
+            .circular--landscape img {
+                width: auto; 
                 height: 100%;
-            }
-            .circular--landscape {
-                width: 300px;
-                height: 300px;
+                margin-left: -50px;
             }
             .box {
+                width: 80%;
+                height: auto;
+                background-color: rgba(82, 16, 16, 0.816);
+                color: aliceblue;
                 font-size: 35px;
+                text-align: center;
             }
             .fontH {
                 font-size: 30px;
+                font-weight: bold;
+                margin-left: 10%;
+                margin-top: 3%;
+                color: black;
             }
-        }
+            .font {
+                font-size: 25px;
+                margin-left: 10%;
+                margin-top: -2%;
+            }
+            .MainPage {
+                margin-top: 0%;
+                width: 100%;
+                height: auto;
+                background : url(img/wall.png)no-repeat ;
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 0%;
+                position: relative;
+            }
+            /* เพิ่ม responsive CSS ที่นี่ */
+            @media (max-width: 768px ) {
+                .col-1 {
+                    display: none; /* ซ่อนคอลัมน์แรกในมือถือ */
+                }
+                .col-4 {
+                    width: 100%; /* ทำให้คอลัมน์ที่ 4 เต็มความกว้างในมือถือ */
+                    text-align: center;
+                    margin-top: 10px;
+                }
+                .circular--landscape {
+                    width: 200px;
+                    height: 200px;
+                }
+                .box {
+                    width: 100%;
+                    font-size: 20px;
+                    text-align: center;
+                }
+                .fontH {
+                    font-size: 20px;
+                    text-align: left;
+                }
+                .col-7 {
+                    display: none
+                    ;
+                }
+            }
+
+            /* เพิ่ม responsive CSS สำหรับคอมพิวเตอร์ที่นี่ */
+            @media (min-width: 769px) {
+                .col-4 {
+                    height: 100%;
+                }
+                .circular--landscape {
+                    width: 300px;
+                    height: 300px;
+                }
+                .box {
+                    font-size: 35px;
+                }
+                .fontH {
+                    font-size: 30px;
+                }
+            }
 
 
-    </style>
+        </style>
 
-    <div class="container body shadow  rounded">
-    <div class="container MainPage" style="max-width: 100%;">
-        <div class="row">
-        <div class="col-1" style="background-color: brown; margin-top: 8%;  height: 300px;"></div>
-        <div class="col-4" style="background-color: red; height: 100%;">
-            <div align="center">
-                <div class="circular--landscape" style="background-color: aliceblue; margin-top: 30%;"><div class="circular--landscape">
-                    <img src="img/Nebula.PNG">
-                </div></div>
-                <div class="box" style="margin: top 20px;">Contact</div>
-            </div>
-            <p class="fontH"><i class="fa-solid fa-phone-volume"></i>&nbsp;&nbsp;088-240-7628</p>
-            <p class="fontH" style="margin-top: -3%;"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;Panupongsuriyan6@gmail.com</p>
-            <p class="fontH" style="margin-top: -3%;"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;Samutsakhon</p>
-            <center>
-            <p class="box">Social</p>
-            </center>
-            <a href="https://discord.gg/uHa6vdtMD6" style="text-decoration: none;">
-                <p class="fontH">
-                <i class="fa-brands fa-discord " style="color: black;"></i>&nbsp;&nbsp;Discord <span style="color: aqua; margin-left: 10%; font-size: 27px;">  TON.TON#5641</span></p>
-            </a>
-            <a href="https://www.facebook.com/profile.php?id=100023880202239" style="text-decoration: none;">
-                <p class="fontH">
-                    <i class="fa-brands fa-square-facebook" style="color: black;"></i>&nbsp;&nbsp;&nbsp;&nbsp;Facebook<span style="color: aqua; margin-left: 7%;">Ton Ton</span></p>
-            </a>
-            <a href="https://www.instagram.com/to_npan.u/" style="text-decoration: none;">
-                <p class="fontH">
-                    <i class="fa-brands fa-square-instagram" style="color: black;"></i>&nbsp;&nbsp;&nbsp;&nbsp;Instagram <span style="color: aqua; margin-left: 4%;">to_npan.u</span> </p>
-            </a>
-            <a href="https://github.com/Nebula-Multiverse" style="text-decoration: none;">
-                <p class="fontH">
-                <i class="fa-brands fa-square-github" style="color: black;"></i>&nbsp;&nbsp;&nbsp;&nbsp;Github <span style="color: aqua; margin-left: 13%;">Nebula-Multiverse</span></p>
-            </a>
-            <center>
-            <p class="box">Language</p>
-            </center>
-            <p class="fontH">Thailand</p>
-            <center>
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 70%"></div>
-              </div>
-            </center>
-            <p class="fontH">English</p>
-            <center>
+        <div class="container body shadow  rounded">
+        <div class="container MainPage" style="max-width: 100%;">
+            <div class="row">
+            <div class="col-1" style="background-color: brown; margin-top: 8%;  height: 300px;"></div>
+            <div class="col-4" style="background-color: red; height: 100%;">
+                <div align="center">
+                    <div class="circular--landscape" style="background-color: aliceblue; margin-top: 30%;"><div class="circular--landscape">
+                        <img src="img/Nebula.PNG">
+                    </div></div>
+                    <div class="box" style="margin: top 20px;">Contact</div>
+                </div>
+                <p class="fontH"><i class="fa-solid fa-phone-volume"></i>&nbsp;&nbsp;088-240-7628</p>
+                <p class="fontH" style="margin-top: -3%;"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;Panupongsuriyan6@gmail.com</p>
+                <p class="fontH" style="margin-top: -3%;"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;Samutsakhon</p>
+                <center>
+                <p class="box">Social</p>
+                </center>
+                <a href="https://discord.gg/uHa6vdtMD6" style="text-decoration: none;">
+                    <p class="fontH">
+                    <i class="fa-brands fa-discord " style="color: black;"></i>&nbsp;&nbsp;Discord <span style="color: aqua; margin-left: 10%; font-size: 27px;">  TON.TON#5641</span></p>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100023880202239" style="text-decoration: none;">
+                    <p class="fontH">
+                        <i class="fa-brands fa-square-facebook" style="color: black;"></i>&nbsp;&nbsp;&nbsp;&nbsp;Facebook<span style="color: aqua; margin-left: 7%;">Ton Ton</span></p>
+                </a>
+                <a href="https://www.instagram.com/to_npan.u/" style="text-decoration: none;">
+                    <p class="fontH">
+                        <i class="fa-brands fa-square-instagram" style="color: black;"></i>&nbsp;&nbsp;&nbsp;&nbsp;Instagram <span style="color: aqua; margin-left: 4%;">to_npan.u</span> </p>
+                </a>
+                <a href="https://github.com/Nebula-Multiverse" style="text-decoration: none;">
+                    <p class="fontH">
+                    <i class="fa-brands fa-square-github" style="color: black;"></i>&nbsp;&nbsp;&nbsp;&nbsp;Github <span style="color: aqua; margin-left: 13%;">Nebula-Multiverse</span></p>
+                </a>
+                <center>
+                <p class="box">Language</p>
+                </center>
+                <p class="fontH">Thailand</p>
+                <center>
                 <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 45%"></div>
-                  </div>
-            </center>
-            <div style="background-color: red; height: 125px;"></div>
-        </div>
-        <div class="col-7" style="background-color: brown; margin-top: 8%;  height: 300px">
-        <div style="font-size: 100px;color: aliceblue; margin-left: 20%; margin-top: 3%;">
-        Panupong
-        <p style="margin-left: 35%; margin-top: -4%;">Suriyan</p>
-        </div> 
-        <center> 
-        <div class="box">About Me</div>
-        </center>
-        <p class="fontH" style="background-color: rgba(255, 255, 255, 0.7); width: 80%; text-align: center;">
-            ชื่อ : นาย ภาณุพงศ์ สุริยันต์ <br>
-            อายุ 17 ส่วนสูง 169 น้ำหนัก 69 <br>
-            กำลังศึกษาอยู่ <br> วิลัยเทคนิคสมุทรสาคร <br>
-            ชั้น ปวช.1 <br>สาขา เทคโนโลยีสารสนเทศ
-        </p>
-        <center> 
-            <div class="box">Skill</div>
-        
-        <div style="background-color: rgba(255, 255, 255, 0.7); width: 80%; height: 300px; text-align: center; font-size: 20px;">
-        Canva  
-        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 80%"></div>
-        </div>
-            <p style="font-size: 20px;">Illustrator</p>
-                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%; margin-top: -2%;">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 20%"></div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 70%"></div>
                 </div>
-                <p style="font-size: 20px;">SQL</p>
-                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%; margin-top: -2%;">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 60%"></div>
-                  </div>
-                  <p style="font-size: 20px;">Python</p>
-                  <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%; margin-top: -2%;">
-                      <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 40%"></div>
+                </center>
+                <p class="fontH">English</p>
+                <center>
+                    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 45%"></div>
                     </div>
-                    <p style="font-size: 20px;">HTML</p>
-                        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%; margin-top: -2%;">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 60%"></div>
-                        </div> 
-                        <p style="font-size: 20px;">CSS</p>
-                        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%; margin-top: -2%;">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 50%"></div>
-                          </div>       
+                </center>
+                <div style="background-color: red; height: 125px;"></div>
             </div>
-            <p class="box" style="margin-top: 2%;">Motto
-                </p><div style="background-color: rgba(255, 255, 255, 0.7); width: 80%; height: 100px auto; text-align: center; font-size: 30px; display: flex; justify-content: center;">
-                        ทำงานว่าเหนื่อยแล้ว ดูตังค์ในกระเป๋า เหนื่อยกว่าเดิมอีก
-                </div>
-            <p></p>
+            <div class="col-7" style="background-color: brown; margin-top: 8%;  height: 300px">
+            <div style="font-size: 100px;color: aliceblue; margin-left: 20%; margin-top: 3%;">
+            Panupong
+            <p style="margin-left: 35%; margin-top: -4%;">Suriyan</p>
+            </div> 
+            <center> 
+            <div class="box">About Me</div>
+            </center>
+            <p class="fontH" style="background-color: rgba(255, 255, 255, 0.7); width: 80%; text-align: center;">
+                ชื่อ : นาย ภาณุพงศ์ สุริยันต์ <br>
+                อายุ 17 ส่วนสูง 169 น้ำหนัก 69 <br>
+                กำลังศึกษาอยู่ <br> วิลัยเทคนิคสมุทรสาคร <br>
+                ชั้น ปวช.1 <br>สาขา เทคโนโลยีสารสนเทศ
+            </p>
+            <center> 
+                <div class="box">Skill</div>
             
-        </center>
+            <div style="background-color: rgba(255, 255, 255, 0.7); width: 80%; height: 300px; text-align: center; font-size: 20px;">
+            Canva  
+            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 90%"></div>
+            </div>
+                <p style="font-size: 20px;">PHP</p>
+                    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%; margin-top: -2%;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 80%"></div>
+                    </div>
+                    <p style="font-size: 20px;">SQL</p>
+                    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%; margin-top: -2%;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 60%"></div>
+                    </div>
+                    <p style="font-size: 20px;">Js</p>
+                    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%; margin-top: -2%;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 20%"></div>
+                        </div>
+                        <p style="font-size: 20px;">HTML</p>
+                            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%; margin-top: -2%;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 60%"></div>
+                            </div> 
+                            <p style="font-size: 20px;">CSS</p>
+                            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%; margin-top: -2%;">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 50%"></div>
+                            </div>       
+                </div>
+                <p class="box" style="margin-top: 2%;">Motto
+                    </p><div style="background-color: rgba(255, 255, 255, 0.7); width: 80%; height: 100px auto; text-align: center; font-size: 30px; display: flex; justify-content: center;">
+                            ทำงานว่าเหนื่อยแล้ว ดูตังค์ในกระเป๋า เหนื่อยกว่าเดิมอีก
+                    </div>
+                <p></p>
+                
+            </center>
+
+            </div>
 
         </div>
-
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-</div>
 
-</body></html>
+    </body></html>
